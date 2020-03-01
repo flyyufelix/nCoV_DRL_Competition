@@ -1,6 +1,6 @@
 # Sage Health Coronavirus Deep Learning Competition #
 
-Please refer to the jupyter notebook `rl_trainer.ipynb` for detailed run through of the entire pipeline. 
+Please refer to the jupyter notebook [rl_trainer.ipynb](https://github.com/flyyufelix/nCoV_DRL_Competition/blob/master/rl_trainer.ipynb) for detailed run through of the entire pipeline. 
 
 ## Method Overview: ##
 
