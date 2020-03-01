@@ -10,13 +10,13 @@ We use  [AutoDock Vina](http://vina.scripps.edu/)  to perform ligand-protein bin
 
 ## Run Instruction ##
 
-The code for reproducing the results in the `rl_trainer.ipynb` jupyter notebook can be found in `run_rl.py`. You can run the code via Docker container:
+The code for reproducing the results in the [rl_trainer.ipynb](https://github.com/flyyufelix/nCoV_DRL_Competition/blob/master/rl_trainer.ipynb) jupyter notebook can be found in [run_rl.py](https://github.com/flyyufelix/nCoV_DRL_Competition/blob/master/run_rl.py). You can run the code via Docker container:
 
 ```
 $ sh run_docker.sh
 ```
 
-This will build and spin up a Docker container where `run_rl.py` will be run automatically.
+This will build and spin up a Docker container where [run_rl.py](https://github.com/flyyufelix/nCoV_DRL_Competition/blob/master/run_rl.py) will be run automatically.
 
 Alternatively, you can manually install all the dependencies:
 
