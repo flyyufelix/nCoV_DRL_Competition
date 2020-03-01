@@ -24,8 +24,8 @@ In order to get started you will need to install:
 
 -   [Pytorch 1.1.0](https://pytorch.org/)
 -   [RDKit](https://www.rdkit.org/docs/Install.html)
--   [Babel]([http://openbabel.org/wiki/Main_Page](http://openbabel.org/wiki/Main_Page))
--   [AutoDock Vina]([http://vina.scripps.edu/](http://vina.scripps.edu/))
+-   [Babel]([http://openbabel.org/wiki/Main_Page](http://openbabel.org/wiki/Main_Page)
+-   [AutoDock Vina]([http://vina.scripps.edu/](http://vina.scripps.edu/)
 
 All the python dependencies are specified in `requirements.txt`. You can install it via:
 
