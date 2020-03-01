@@ -1,0 +1,5 @@
+tqdm==4.43.0
+jupyter==1.0.0
+sklearn==0.0
+matplotlib
+seaborn
