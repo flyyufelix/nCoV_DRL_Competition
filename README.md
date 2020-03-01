@@ -24,13 +24,13 @@ In order to get started you will need to install:
 
 -   [Pytorch 1.1.0](https://pytorch.org/)
 -   [RDKit](https://www.rdkit.org/docs/Install.html)
--   [Babel]([http://openbabel.org/wiki/Main_Page](http://openbabel.org/wiki/Main_Page)
--   [AutoDock Vina]([http://vina.scripps.edu/](http://vina.scripps.edu/)
+-   [Babel](http://openbabel.org/wiki/Main_Page)
+-   [AutoDock Vina](http://vina.scripps.edu)
 
-All the python dependencies are specified in `requirements.txt`. You can install it via:
+All python dependencies are specified in [requirements.txt](https://github.com/flyyufelix/nCoV_DRL_Competition/blob/master/requirements.txt). You can install it via:
 
 ```
 $ pip install -r requirements.txt
 ```
 
-GPU is not required to run the code. The speed bottleneck is on AutoDock Vina docking simulation. 
+GPU is NOT required to run the code. The speed bottleneck is on AutoDock Vina docking simulation. 
