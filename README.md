@@ -10,13 +10,13 @@ We use  [AutoDock Vina](http://vina.scripps.edu/)  to perform ligand-protein bin
 
 ## Run Instruction ##
 
-The code for reproducing the results in the [rl_trainer.ipynb](https://github.com/flyyufelix/nCoV_DRL_Competition/blob/master/rl_trainer.ipynb) jupyter notebook can be found in [run_rl.py](https://github.com/flyyufelix/nCoV_DRL_Competition/blob/master/run_rl.py). You can run the code via Docker container:
-
+You can run [rl_trainer.ipynb](https://github.com/flyyufelix/nCoV_DRL_Competition/blob/master/rl_trainer.ipynb) jupyter notebook via Docker:
 ```
 $ sh run_docker.sh
 ```
+This will automatically build and spin up a Docker container where the jupyter notebook is run inside at port 8888. 
 
-This will build and spin up a Docker container where [run_rl.py](https://github.com/flyyufelix/nCoV_DRL_Competition/blob/master/run_rl.py) will be run automatically.
+On the same machine, you can type http://localhost:8888/notebooks/rl_trainer.ipynb in your browser to access the jupyter notebook. 
 
 Alternatively, you can manually install all the dependencies:
 
@@ -25,7 +25,7 @@ In order to get started you will need to install:
 -   [Pytorch 1.1.0](https://pytorch.org/)
 -   [RDKit](https://www.rdkit.org/docs/Install.html)
 -   [Babel](http://openbabel.org/wiki/Main_Page)
--   [AutoDock Vina](http://vina.scripps.edu)
+-   [AutoDock Vina](http://vina.scripps.edu/)
 
 All python dependencies are specified in [requirements.txt](https://github.com/flyyufelix/nCoV_DRL_Competition/blob/master/requirements.txt). You can install it via:
 

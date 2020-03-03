@@ -86,4 +86,6 @@ COPY checkpoints ./checkpoints
 COPY data ./data
 COPY release ./release
 COPY vina .
+COPY rl_trainer.ipynb .
+COPY top_ligands.txt .
 
