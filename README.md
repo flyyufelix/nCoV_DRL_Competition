@@ -12,7 +12,7 @@ We use  [AutoDock Vina](http://vina.scripps.edu/)  to perform ligand-protein bin
 
 You can run [rl_trainer.ipynb](https://github.com/flyyufelix/nCoV_DRL_Competition/blob/master/rl_trainer.ipynb) jupyter notebook via Docker:
 ```
-$ sh run_docker.sh
+$ sudo sh run_docker.sh
 ```
 This will automatically build and spin up a Docker container where the jupyter notebook is run at port 8888. 
 
