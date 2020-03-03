@@ -5,8 +5,6 @@ IMAGE_VERSION=0.1
 docker build -f Dockerfile -t $IMAGE_NAME:$IMAGE_VERSION .
 
 # Run container and execute rl trainer
-#docker run --runtime=nvidia $IMAGE_NAME:$IMAGE_VERSION python run_rl.py
-#docker run $IMAGE_NAME:$IMAGE_VERSION python run_rl.py
-docker run -p 8888:8888 $IMAGE_NAME:$IMAGE_VERSION jupyter notebook --ip 0.0.0.0 --no-browser --allow-root
+docker run -p 8888:8888 $IMAGE_NAME:$IMAGE_VERSION jupyter notebook rl_trainer.ipynb --ip 0.0.0.0 --no-browser --allow-root
 
 
