@@ -14,9 +14,9 @@ You can run [rl_trainer.ipynb](https://github.com/flyyufelix/nCoV_DRL_Competitio
 ```
 $ sh run_docker.sh
 ```
-This will automatically build and spin up a Docker container where the jupyter notebook is run inside at port 8888. 
+This will automatically build and spin up a Docker container where the jupyter notebook is run at port 8888. 
 
-On the same machine, you can type http://localhost:8888/notebooks/rl_trainer.ipynb in your browser to access the jupyter notebook. 
+On the same machine, you can then input http://localhost:8888/notebooks/rl_trainer.ipynb in your browser to access the jupyter notebook. 
 
 Alternatively, you can manually install all the dependencies:
 
